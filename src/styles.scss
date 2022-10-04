@@ -1,6 +1,5 @@
 /* Add application styles & imports to this file! */
 @import url('https://fonts.googleapis.com/css?family=Spectral+SC:700');
-@import '~highlight.js/styles/github.css';
 
 body {
   background-color: #f9f9f9;
@@ -12,7 +11,7 @@ h1 {
   color: dodgerblue;
   text-align: center;
 }
-   
+
 h3 {
   text-align: center;
   background-color: #ededed;
@@ -42,7 +41,7 @@ li {
 a {
   box-sizing: border-box;
   text-decoration: none;
-  padding: .3em;
+  padding: 0.3em;
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -53,7 +52,7 @@ a {
 }
 
 .active {
-  background-color: rgba(0,0,0, 0.25);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 pre {
@@ -74,7 +73,6 @@ pre {
     }
   }
 }
-
 
 /** Line numbers styles */
 .hljs {
@@ -109,8 +107,7 @@ td.hljs-ln-numbers {
   padding-left: 8px !important;
 }
 
-  /* for block of code */
+/* for block of code */
 td.hljs-ln-code {
   padding-left: 8px !important;
 }
-
