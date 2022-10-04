@@ -1,0 +1,11 @@
+<h1>{{ method }}</h1>
+<select style="margin: 15px;" [(ngModel)]="method">
+  <option value="concat" default>concat</option>
+  <option value="merge">merge</option>
+  <option value="zip">zip</option>
+  <option value="partition">partition</option>
+  <option value="combineLatest">combineLatest</option>
+  <option value="forkJoin">forkJoin</option>
+  <option value="race">race</option>
+</select>
+<home [method]="method"></home>
